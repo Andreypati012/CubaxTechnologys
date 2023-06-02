@@ -7346,6 +7346,9 @@ svg {
   .info-spoller__btn::before {
     left: -7rem;
   }
+  .spoller__title {
+    font-size: 0.9rem;
+  }
 }
 @media all and (max-width: 25em) {
   .info-spoller__btn::before {
@@ -7854,6 +7857,9 @@ svg {
   }
   .info-spoller {
     padding-top: 4.5rem;
+  }
+  .build-info {
+    padding-bottom: 9.8125em;
   }
 }
 .container {

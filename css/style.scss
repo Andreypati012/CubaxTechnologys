@@ -5850,7 +5850,7 @@ svg{
 	background: linear-gradient(#161B22 0%, #202E43 43.23%, #1B283C 76.18%, #0D1725 100%);
 	width: 100%;
 	padding-top: 17.5rem;
-	padding-bottom: 9.8125em;
+	padding-bottom: 5.8125em;
 	position: relative;
 	overflow: hidden;
 }
@@ -7379,7 +7379,7 @@ svg{
 
 
 .spoller__title{
-	font-size: 0.9rem;
+	font-size: 1rem;
 	color: #fff;
 	line-height: 1.5em;
 	letter-spacing: 1.1px;
@@ -7505,13 +7505,6 @@ svg{
 //1350px
 
 @media all and (max-width: 84.4375em){
-	// .info-spoller__font-one {
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	position: absolute;
-	// 	top: 2%;
-	// 	left: 60%;
-	// }
 	.info-spoller__btn::before {
 		content: "";
 		position: absolute;
@@ -7935,6 +7928,9 @@ svg{
 @media all and (max-width: 26.25em){
 	.info-spoller__btn::before {
 		left: -7rem;
+	}
+	.spoller__title {
+		font-size: 0.9rem;
 	}
 }
 
@@ -8522,6 +8518,9 @@ svg{
 	}
 	.info-spoller {
 		padding-top: 4.5rem;
+	}
+	.build-info {
+		padding-bottom: 9.8125em;
 	}
 }
 
