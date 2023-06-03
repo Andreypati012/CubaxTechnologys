@@ -94,6 +94,15 @@ else{
   });
 
 
+  const telephoneActive = document.querySelector('.header__contacts');
+            console.log(telephoneActive);
+            if(telephoneActive){
+                telephoneActive.addEventListener('click', function (e){
+                  burger.classList.toggle('openBurger');
+                  bodyMenuBurger.classList.toggle('OpenBodyMenu');
+               })
+            }
+
 
  //ленивая подгрузка
 
@@ -510,3 +519,28 @@ else{
                 })
                }
             }
+
+           
+
+
+//             const burger = document.querySelector('#burger');
+//   const bodyMenuBurger = document.querySelector('.header__body');
+//  const menuItem = document.querySelectorAll('.menu-items__item');
+//   burger.addEventListener('click', function (e){
+//    burger.classList.toggle('openBurger');
+//     bodyMenuBurger.classList.toggle('OpenBodyMenu');
+//      if(burger.classList.contains('openBurger')){
+//        document.body.style.overflow = 'hidden';
+//      }
+//      else{
+//       document.body.style.overflow = 'visible';
+//      }
+//      for(let item = 0; item < menuItem.length; item++){
+//        const element = menuItem[item];
+//         element.addEventListener('click', function (e){
+//           document.body.style.overflow = 'visible';
+//           burger.classList.remove('openBurger');
+//           bodyMenuBurger.classList.remove('OpenBodyMenu');
+//         })
+//      }
+//   });
