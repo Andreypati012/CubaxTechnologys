@@ -644,8 +644,8 @@ main{
 			animation: animationTrans 4s infinite ease-in-out;
 		}
 	}
-	.card__item{
-		
+	.information {
+		padding-top: 10.6875rem;
 	}
 }
 
@@ -750,6 +750,9 @@ main{
 	  .information__title{
 		font-size: 1.9rem;
 	  }
+	  .information {
+		padding-top: 9.6875rem;
+	}	  
 }
 
 
@@ -770,6 +773,14 @@ main{
 	.info-card__title{
 		font-size: 1rem;
 	  }
+}
+
+//340px
+
+@media all and (max-width: 21.25em){
+	.information {
+		padding-top: 8.5rem;
+	}	
 }
 
 

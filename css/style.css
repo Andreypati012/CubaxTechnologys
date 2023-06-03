@@ -669,6 +669,9 @@ main {
        object-fit: contain;
     animation: animationTrans 4s infinite ease-in-out;
   }
+  .information {
+    padding-top: 10.6875rem;
+  }
 }
 @media all and (max-width: 35.375em) {
   .information__image-krone img {
@@ -760,6 +763,9 @@ main {
   .information__title {
     font-size: 1.9rem;
   }
+  .information {
+    padding-top: 9.6875rem;
+  }
 }
 @media all and (max-width: 22.5em) {
   .information__image-krone img {
@@ -773,6 +779,11 @@ main {
   }
   .info-card__title {
     font-size: 1rem;
+  }
+}
+@media all and (max-width: 21.25em) {
+  .information {
+    padding-top: 8.5rem;
   }
 }
 .header {
